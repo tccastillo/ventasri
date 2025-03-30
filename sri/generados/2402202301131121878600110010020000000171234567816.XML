@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<factura id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>FERRETERIA FERRAN</razonSocial>
+        <nombreComercial>FERRETERIA FERRAN</nombreComercial>
+        <ruc>1311218786001</ruc>
+        <claveAcceso>2402202301131121878600110010020000000171234567816</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000000017</secuencial>
+        <dirMatriz>PRINCIPAL S/N Y AV JUAN CARLOS ASPIAZU</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>24/02/2023</fechaEmision>
+        <dirEstablecimiento>NO</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>07</tipoIdentificacionComprador>
+        <razonSocialComprador>CONSUMIDOR FINAL</razonSocialComprador>
+        <identificacionComprador>9999999999999</identificacionComprador>
+        <totalSinImpuestos>22.32</totalSinImpuestos>
+        <totalDescuento>0</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>22.32</baseImponible>
+                <valor>2.68</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>25</importeTotal>
+        <moneda>DOLAR</moneda>
+    </infoFactura>
+    <detalles><detalle>
+            <codigoPrincipal>2</codigoPrincipal>
+            <descripcion>CEMENTO ANDINO</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>22.32</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>22.32</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje> 
+                    <tarifa>12</tarifa>
+                    <baseImponible>22.32</baseImponible>
+                    <valor>2.68</valor>
+                </impuesto>
+            </impuestos>
+        </detalle></detalles>
+    <infoAdicional>
+        <campoAdicional nombre="OBSERVACION">CONSUMO</campoAdicional>
+    </infoAdicional>
+</factura>

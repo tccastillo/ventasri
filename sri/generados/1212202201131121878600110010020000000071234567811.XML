@@ -1,0 +1,59 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<factura id="comprobante" version="1.0.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>COMERCIALIZADORA JV</razonSocial>
+<nombreComercial>COMERCIALIZADORA JV</nombreComercial>
+<ruc>0501877583001</ruc>
+<claveAcceso>0212202201050187758300120011000000000061234567818</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>100</ptoEmi>
+<secuencial>000000006</secuencial>
+<dirMatriz>CALLE 27 DE MAYO S/N Y GARCIA MORENO</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>02/12/2022</fechaEmision>
+<dirEstablecimiento>ABDON CALDEROM EMTRE 5 DE JUNIO Y 10 DE AGOSTO</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>SANDOYA SANCHEZ MARILYN CARLOTA</razonSocialComprador>
+<identificacionComprador>1202429856001</identificacionComprador>
+<totalSinImpuestos>150</totalSinImpuestos>
+<totalDescuento>0</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<baseImponible>150</baseImponible>
+<valor>18</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>168</importeTotal>
+<moneda>DOLAR</moneda>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>2</codigoPrincipal>
+<descripcion>VIG LAC ENTERA</descripcion>
+<cantidad>240.00</cantidad>
+<precioUnitario>150</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>0.63</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>0.63</baseImponible>
+<valor>18</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="OBSERVACION">VENTA</campoAdicional>
+</infoAdicional>
+</factura>

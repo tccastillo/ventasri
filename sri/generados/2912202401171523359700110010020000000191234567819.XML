@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<factura id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>MEGAXNET</razonSocial>
+        <nombreComercial>MEGAXNET</nombreComercial>
+        <ruc>1715233597001</ruc>
+        <claveAcceso>2912202401171523359700110010020000000191234567819</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000000019</secuencial>
+        <dirMatriz>PRINCIPAL S/N Y OLMEDO</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>29/12/2024</fechaEmision>
+        <dirEstablecimiento>NO</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador/>
+        <identificacionComprador/>
+        <totalSinImpuestos>5.36</totalSinImpuestos>
+        <totalDescuento>0</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>5.36</baseImponible>
+                <valor>0.64</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>6</importeTotal>
+        <moneda>DOLAR</moneda>
+    </infoFactura>
+    <detalles><detalle>
+            <codigoPrincipal>2</codigoPrincipal>
+            <descripcion>DISCO</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>5.36</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>5.36</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje> 
+                    <tarifa>12</tarifa>
+                    <baseImponible>5.36</baseImponible>
+                    <valor>0.64</valor>
+                </impuesto>
+            </impuestos>
+        </detalle></detalles>
+    <infoAdicional>
+        <campoAdicional nombre="OBSERVACION">CONSUMO</campoAdicional>
+    </infoAdicional>
+</factura>
