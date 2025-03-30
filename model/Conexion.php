@@ -5,7 +5,7 @@
 		public static $db;
 		public static $con;
 		function Conexion(){
-			$this->user="root";$this->pass="";$this->host="localhost";$this->ddbb="ecuadorventa";
+			$this->user="venticx";$this->pass="Gabriela*1";$this->host="localhost";$this->ddbb="ecuadorventa";
 		} 
 
 
